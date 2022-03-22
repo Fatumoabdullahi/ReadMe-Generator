@@ -15,3 +15,17 @@ const questions = () => {
             }
         } 
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address.',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+                return false; 
+            }
+        }
+
+    },
