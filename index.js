@@ -128,3 +128,7 @@ questions()
 .then(answers => {
     return generatePage(answers);
 })
+// using data to display on page 
+.then(data => {
+    return writeFile(data);
+})
