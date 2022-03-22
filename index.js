@@ -29,3 +29,16 @@ const questions = () => {
         }
 
     },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'Please enter your project title.',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter your project title!');
+                return false; 
+            }
+        }
+    },
