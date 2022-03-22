@@ -132,3 +132,7 @@ questions()
 .then(data => {
     return writeFile(data);
 })
+// catching errors 
+.catch(err => {
+    console.log(err)
+})
