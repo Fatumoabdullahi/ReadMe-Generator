@@ -55,3 +55,18 @@ const questions = () => {
             }
         }
     }, 
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What kind of license should your project have?',
+        choices: ['MIT', 'GNU'],
+        default: ["MIT"],
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please choose a license!');
+                return false; 
+            }
+        }
+    },
