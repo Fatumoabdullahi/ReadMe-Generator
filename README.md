@@ -6,6 +6,7 @@ This application allows users to generate high-quality, professional README depe
 Install node
 ## Usage 
 Use inquirer in your command line and answer the questions presented accordingly.
+<figure><img src="./utils/readme-generator.png"></figure>
 
 click <a href="https://drive.google.com/drive/my-drive">here</a> to view video example.
 ## License 
