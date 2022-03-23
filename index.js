@@ -76,19 +76,7 @@ const questions = () => {
             }
         }
     },
-    {
-        type: 'input',
-        name: 'install',
-        message: 'What are the steps required to install your project?',
-        validate: nameInput => {
-            if (nameInput) {
-                return true;
-            } else {
-                console.log('Please enter steps required to install your project!');
-                return false; 
-            }
-        }
-    },
+   
     {
         type: 'input',
         name: 'usage',
